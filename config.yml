@@ -1,0 +1,10 @@
+baseURL: "https://michaelreichenbach.de"
+languageCode: "en"
+title: "Blog | Michael Reichenbach"
+theme: ["github.com/NormandErwan/Blogpaper"]
+disqusShortname: "michaelreichenbach"
+author:
+  name: Michael Reichenbach
+params:
+  description: # The description of your site (used on a <meta> tag)
+  subtitleLength: 25 # The number of words on the subtitle of a page
