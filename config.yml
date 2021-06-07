@@ -1,10 +1,24 @@
 baseURL: "https://michaelreichenbach.de"
 languageCode: "en"
-title: "Blog | Michael Reichenbach"
-theme: ["github.com/NormandErwan/Blogpaper"]
+title: "Michael Reichenbach | Blog"
+theme: ["github.com/upagge/uBlogger"]
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: true
+    style: monokai
+    tabWidth: 4
 disqusShortname: "michaelreichenbach"
 author:
   name: Michael Reichenbach
 params:
   description: # The description of your site (used on a <meta> tag)
   subtitleLength: 25 # The number of words on the subtitle of a page
+  logo: logo.png
