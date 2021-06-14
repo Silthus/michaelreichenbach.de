@@ -2,3 +2,5 @@ github.com/NormandErwan/Blogpaper v1.0.4 h1:UqbRTuMnFiXxMDphCnV1VD9fA4soK/G1qq7q
 github.com/NormandErwan/Blogpaper v1.0.4/go.mod h1:YMAogp9A0tmjSCjk8TT0i/o2oct42j5yIC8zHp9hkBY=
 github.com/theNewDynamic/gohugo-theme-ananke v2.6.7+incompatible h1:7c+NVmojLSbkk3F0GjCvEgWRI8oZh++vtR9VbNZJuMY=
 github.com/theNewDynamic/gohugo-theme-ananke v2.6.7+incompatible/go.mod h1:RlzLLao82tupbQFWEZtV9ibVqr9+2WYw31sCghz3n3Y=
+github.com/upagge/uBlogger v1.2.0 h1:gAeeqXc/VYtRedYbiWzA8PYMN5qJ8vmg5bq1V81/YEA=
+github.com/upagge/uBlogger v1.2.0/go.mod h1:wKWOIw4TahWPrhi6/yG3mqbDWIeN5DwX/WDtU77h79o=
