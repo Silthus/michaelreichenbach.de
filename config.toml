@@ -29,6 +29,7 @@ enableRobotsTXT = true
   dateFormat = "01.02.2006"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
+  mainSections = ["posts"]
 
 [menu]
   [[menu.main]]
