@@ -1,6 +1,6 @@
 ---
 title: Using Gamification to create slogans
-author: Michael
+author: Silthus
 type: post
 draft: true
 date: 2017-11-24T15:50:38+00:00

@@ -1,6 +1,6 @@
 ---
 title: Introducing the RAT Framework
-author: Michael
+author: Silthus
 type: post
 draft: true
 date: 2017-12-03T15:08:53+00:00

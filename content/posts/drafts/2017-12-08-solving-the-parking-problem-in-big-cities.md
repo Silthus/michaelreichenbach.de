@@ -1,6 +1,6 @@
 ---
 title: Idea for solving the parking problem in big cities
-author: Michael
+author: Silthus
 type: post
 draft: true
 date: 2017-12-08T10:19:11+00:00

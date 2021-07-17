@@ -1,6 +1,6 @@
 ---
 title: Getting started with kubectl for Azure AKS on Windows
-author: Michael
+author: Silthus
 type: post
 date: 2017-11-29T13:08:24+00:00
 url: /getting-started-kubectl-azure-aks-windows/

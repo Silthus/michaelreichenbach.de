@@ -1,6 +1,6 @@
 ---
 title: Why my Minecraft server failed – an Octalysis analysis
-author: Michael
+author: Silthus
 type: post
 draft: true
 date: 2017-12-23T17:40:57+00:00

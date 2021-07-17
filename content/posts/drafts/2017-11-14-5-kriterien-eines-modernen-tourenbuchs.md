@@ -1,6 +1,6 @@
 ---
 title: 5 Kriterien eines modernen Tourenbuchs
-author: Michael
+author: Silthus
 type: post
 draft: true
 date: 2017-11-14T17:30:10+00:00

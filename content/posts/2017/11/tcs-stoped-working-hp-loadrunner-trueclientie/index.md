@@ -1,6 +1,6 @@
 ---
 title: Workaround for TCS has stopped working with HP Loadrunner TruClientIE
-author: Michael
+author: Silthus
 type: post
 date: 2017-11-16T13:52:47+00:00
 url: /tcs-stoped-working-hp-loadrunner-trueclientie/
