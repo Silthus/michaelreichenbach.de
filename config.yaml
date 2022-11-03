@@ -22,6 +22,9 @@ outputs:
         - RSS
         - JSON # is necessary for search
 
+permalinks:
+    posts: /posts/:filename/
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Michael Reichenbach | Blog

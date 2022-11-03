@@ -1,7 +1,6 @@
 ---
 title: 'How-To: Configure Google Chrome Extensions with Windows GPO'
 date: 2019-09-20
-url: /posts/how-to-configure-google-chrome-extensions-with-windows-gpo/
 categories:
   - System Administration
 cover:
