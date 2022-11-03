@@ -76,16 +76,14 @@ params:
         Content: Welcome to my blog
 
     socialIcons:
-        # - name: twitter
-        #   url: "https://twitter.com/Silthus"
-        # - name: stackoverflow
-        #   url: "https://stackoverflow.com/users/1914062/silthus"
         - name: github
           url: "https://github.com/Silthus"
-        - name: stackoverflow
-          url: "https://stackoverflow.com/users/1914062/silthus"
         - name: linkedin
           url: "https://linkedin.com/in/michael-reichenbach"
+        - name: twitter
+          url: "https://twitter.com/silthus"
+        - name: email
+          url: "mailto:me@silthus.net"
 
     analytics:
         google:
