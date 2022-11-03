@@ -1,0 +1,33 @@
+<footer class="footer">
+    {{- if site.Copyright }}
+    <span>{{ site.Copyright | markdownify }}</span>
+    {{- else }}
+    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+    {{- end }}
+    <span><a href="https://www.iubenda.com/privacy-policy/22146896" id="privacy-policy" class="iubenda-noiframe iubenda-embed iubenda-noiframe" title="Privacy Policy ">Privacy Policy</a></span>
+
+</footer>
+
+<script type="text/javascript">(function (w, d) {
+    var loader = function () {
+        var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0];
+        s.src = "https://cdn.iubenda.com/iubenda.js";
+        tag.parentNode.insertBefore(s, tag);
+    };
+    if (w.addEventListener) {
+        w.addEventListener("load", loader, false);
+    } else if (w.attachEvent) {
+        w.attachEvent("onload", loader);
+    } else {
+        w.onload = loader;
+    }
+
+    if (localStorage.getItem("pref-theme") === "dark") {
+        d.getElementById("privacy-policy").classList.add("iubenda-black")
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        d.getElementById("privacy-policy").classList.add("iubenda-white")
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        d.getElementById("privacy-policy").classList.add("iubenda-black")
+    }
+})(window, document);</script>
+

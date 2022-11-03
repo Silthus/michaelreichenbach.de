@@ -1,15 +1,14 @@
 ---
 title: Workaround for TCS has stopped working with HP Loadrunner TruClientIE
-author: Silthus
-type: post
-date: 2017-11-16T13:52:47+00:00
-url: /tcs-stoped-working-hp-loadrunner-trueclientie/
+date: 2017-11-16
+url: /posts/tcs-stoped-working-hp-loadrunner-trueclientie/
 featured_image: banner.png
 categories:
   - System Administration
 tags:
   - HP Loadrunner
-
+cover:
+  image: banner.png
 ---
 When using HP Loadrunner 12 and above with TruClientIE there is a known issue that the TCS process stops working after a couple of minutes.
 

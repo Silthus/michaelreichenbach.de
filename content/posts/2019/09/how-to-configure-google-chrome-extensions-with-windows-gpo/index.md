@@ -1,19 +1,11 @@
 ---
 title: 'How-To: Configure Google Chrome Extensions with Windows GPO'
-author: silthus
-type: post
-date: 2019-09-20T19:56:54+00:00
-url: /how-to-configure-google-chrome-extensions-with-windows-gpo/
+date: 2019-09-20
+url: /posts/how-to-configure-google-chrome-extensions-with-windows-gpo/
 categories:
   - System Administration
-page:
-  theme: full
-toc:
-  enable: true
-resources:
-- name: featured-image
-  src: banner.jpg
-
+cover:
+  image: banner.png
 ---
 I recently worked on a project where we needed to create a fully self configuring mounted wall display solution that could be zero touch deployed across the company. You can read more about the full solution in my upcoming blog post.
 

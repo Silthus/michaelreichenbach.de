@@ -1,5 +1,5 @@
 baseURL: "https://michaelreichenbach.de/"
-title: Michael Reichenbach | Blog
+title: Michael Reichenbach
 paginate: 10
 theme: PaperMod
 
@@ -8,13 +8,19 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: 
+googleAnalytics: G-N05EXWL5RF
 
 minify:
     disableXML: true
     minifyOutput: true
 
 disqusShortname: michaelreichenbach
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary for search
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -33,11 +39,15 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: true
+    ShowRelatedContent: true
     disableSpecial1stPost: false
     disableScrollToTop: false
+    ShowRssButtonInSectionTermList: true
     comments: true
     hidemeta: false
     hideSummary: false
+    hideFooter: true
     showtoc: true
     tocopen: false
 
@@ -58,7 +68,7 @@ params:
     # profile-mode
     profileMode:
         enabled: true # needs to be explicitly set
-        title: Welcome
+        title: "Welcome \U0001F44B"
         subtitle: "...to my blog!"
         imageUrl: "/profile.jpeg"
         imageWidth: 200
@@ -67,13 +77,15 @@ params:
         buttons:
             - name: Posts
               url: posts
+            - name: Categories
+              url: categories
             - name: Tags
               url: tags
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Title: "Welcome \U0001F44B"
+        Content: "... to my blog"
 
     socialIcons:
         - name: github
@@ -94,9 +106,10 @@ params:
             SiteVerificationTag: "XYZabc"
 
     cover:
-        hidden: true # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
+        hidden: false # hide everywhere but not in structured data
+        hiddenInList: false # hide on list pages and home
+        hiddenInSingle: false
+        responsiveImages: true
 
     editPost:
         URL: "https://github.com/Silthus/michaelreichenbach.de/edit/main/content"
@@ -115,17 +128,21 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 5
         - identifier: posts
           name: Posts
           url: /posts/
-          weight: 5
-        - identifier: categories
-          name: Categories
-          url: /categories/
           weight: 10
-        - identifier: tags
-          name: Tags
-          url: /tags/
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 15
+        - identifier: archive
+          name: Archive
+          url: /archive/
           weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

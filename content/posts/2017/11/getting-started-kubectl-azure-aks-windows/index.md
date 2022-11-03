@@ -1,16 +1,15 @@
 ---
 title: Getting started with kubectl for Azure AKS on Windows
-author: Silthus
-type: post
-date: 2017-11-29T13:08:24+00:00
-url: /getting-started-kubectl-azure-aks-windows/
+date: 2017-11-29
+url: /posts/getting-started-kubectl-azure-aks-windows/
 featured_image: banner.png
 categories:
   - System Administration
 tags:
   - azure
   - kubernetes
-
+cover:
+  image: banner.png
 ---
 In this post you will learn how you can launch the [Kubernetes Web UI Dashboard][1] from you Windows Bash connected to the new [Azure AKS service][2].
 

@@ -1,9 +1,7 @@
 ---
 title: 'How-To: Extend windows partition blocked by recovery partition'
-author: Silthus
-type: post
-date: 2018-01-29T08:13:39+00:00
-url: /how-to-extend-windows-partition-blocked-by-recovery-partition/
+date: 2018-01-29
+url: /posts/how-to-extend-windows-partition-blocked-by-recovery-partition/
 categories:
   - System Administration
   - Windows
@@ -13,7 +11,8 @@ tags:
   - powershell
   - windows
   - winpe
-resources:
+cover:
+  image: featured-image.jpg
 ---
 When you are working with Visual Machines (VMs) and fixed hard disks it can happen that you run out of space. In such cases it comes in handy that you can simply extend the existing virtual hard disk. Since Windows Server 2012R2 and Windows 8.1 this is even [possible while the VM is running][1]. After extending the VHDX you just need to go into Disk Management and expand your partition. That&#8217;s the theory at least. However in a non lab environment things might look a little different.
 

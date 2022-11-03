@@ -1,9 +1,7 @@
 ---
 title: Windows Subsystem for Linux (WSL) behind Proxy
-author: Silthus
-type: post
-date: 2017-12-13T11:41:50+00:00
-url: /windows-subsystem-linux-behind-proxy/
+date: 2017-12-13
+url: /posts/windows-subsystem-linux-behind-proxy/
 categories:
   - Programming
   - System Administration

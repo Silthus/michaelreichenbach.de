@@ -1,9 +1,7 @@
 ---
 title: RoboCopy the better XCopy – Parsing error logs
-author: Silthus
-type: post
-date: 2018-03-12T09:16:16+00:00
-url: /robocopy-the-better-xcopy-parsing-error-logs/
+date: 2018-03-12
+url: /posts/robocopy-the-better-xcopy-parsing-error-logs/
 categories:
   - System Administration
 tags:
@@ -12,7 +10,6 @@ tags:
   - windows
   - xcopy
   - tools
-
 ---
 A few weeks ago I wrote about [using XCopy to copy files and folder structures including their NTFS Permissions][1]. Recently I came to the point where I wanted to see all errors and their related files, so I could fix messed up NTFS permissions. With XCopy however parsing the log is pretty much impossible. Also Microsoft suggests using RoboCopy as a sucessor to XCopy. And thats what I did.
 

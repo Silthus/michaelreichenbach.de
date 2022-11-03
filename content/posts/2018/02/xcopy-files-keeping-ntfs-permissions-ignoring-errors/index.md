@@ -1,10 +1,7 @@
 ---
 title: XCopy files keeping NTFS permissions and ignoring errors
-author: Michael
-type: post
-date: 2018-02-28T13:26:17+00:00
-url: /xcopy-files-keeping-ntfs-permissions-ignoring-errors/
-featured_image: /wp-content/uploads/2018/02/pexels-photo-117729.jpeg
+date: 2018-02-28
+url: /posts/xcopy-files-keeping-ntfs-permissions-ignoring-errors/
 categories:
   - System Administration
 tags:
