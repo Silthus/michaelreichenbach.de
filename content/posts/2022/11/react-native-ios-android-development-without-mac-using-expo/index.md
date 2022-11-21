@@ -1,7 +1,6 @@
 ---
 Title: How-To Develop an iOS & Android App Without a MAC Using ReactNative and Expo
-draft: true
-date: 2022-11-07
+date: 2022-11-28
 cover:
   image: cover.jpg
 tags:
@@ -17,9 +16,11 @@ categories:
 
 You know what I am talking about if you ever tried it...  
 
-But I did not want to give up developing my first app to, someday, start my own startup. So I did some research and tested out the various big cross platform frameworks: [Flutter][flutter], [Xamarin][xamarin], and [React Native][react-native]. The problem is that I have an iPhone and no MAC but every framework requires one to build and test the app.
+But I did not want to give up [developing my first app][starting]. So I did some research and tested out the various big cross platform frameworks: [Flutter][flutter], [Xamarin][xamarin], and [React Native][react-native]. The problem is that I have an iPhone and no MAC but every framework requires one to build and test the app for iOS.
 
-Then I came across [Expo][expo] which extends React Native with a lot of useful libraries and features that make the native mobile app more like a React web app. But the real power comes from its free build service: [Expo Application Services][eas]. It enables you to build, test and deploy your app without ever touching a MAC. And all in an easy and very well documented process. To get started simply follow their [documentation][expo-start] and you will have your first app up and running on your real device in under five minutes.
+### Expo Application Services to the Rescue
+
+Then I came across [Expo][expo] which extends React Native with a lot of useful libraries and features that make the native mobile app more like a React web app. But the real power comes from its free build service: [Expo Application Services][eas]. It enables you to build, test and deploy your app without ever touching a MAC. And all that in an easy and very well documented process. To get started simply follow their [documentation][expo-start] and you will have your first app up and running on your real device in under five minutes.
 
 To create a new app run:
 
@@ -34,20 +35,21 @@ cd my-app
 npx expo start
 ```
 
-This will get you started with the most basic app. I however used the [Ignite Boilerplate][ignite] to get me up and running with some of the best practices and a solid foundation. From there I integrated [React Native Firebase][rnfirebase] and kicked off a standalone development client build moving away from the Expo Go client.
+### Expo Standalone Development Client
 
-TODO: describe standalone app
+This will get you started with the most basic app. I however used the [Ignite Boilerplate][ignite] to get me up and running with some of the best practices and a solid foundation. From there I integrated [React Native Firebase][rnfirebase] and kicked off a [standalone development client][devclient] build moving away from the Expo Go client.
 
-TODO: describe integrating react native firebase
+Every additional native library needs a new development client build as it bundles the required dependencies into the client and allows you to serve the web bundle compiled by `eas update`. Try to forsee some of the libraries you'll want to use in the future and bundle them into your standalone client. This will save you a lot of time waiting for `eas build` slots. Just make sure to throw out unneeded dependencies before your first release to the app stores.
 
-TODO: show github workflows
+---
 
+How is Expo working for you? Did you come across any problems? Leave a comment below.
 
-- Problem: 
-- Setting up a workflow with expo that solves the issue
+In one of my next posts I am going to show you how I automated everything using Github actions.
 
-Follow Up: blog post for automating expo deployments and builds using github actions
+ <!-- TODO: add link to next blog post about github actions -->
 
+[starting]: ../how-i-started-working-on-my-dream-beside-my-main-job
 [flutter]: https://flutter.dev/
 [xamarin]: https://dotnet.microsoft.com/en-us/apps/xamarin
 [react-native]: https://reactnative.dev/
@@ -57,3 +59,4 @@ Follow Up: blog post for automating expo deployments and builds using github act
 [expo-go]: https://expo.dev/client
 [ignite]: https://github.com/infinitered/ignite
 [rnfirebase]: https://rnfirebase.io/
+[devclient]: https://docs.expo.dev/development/create-development-builds/
