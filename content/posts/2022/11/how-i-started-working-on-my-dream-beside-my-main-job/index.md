@@ -64,7 +64,7 @@ Good goals keep us motivated and help to track progress. On the otherhand bad go
 
 ### What is a Good Goal?
 
-A good goal is one that is specific, actionable, and achievable. The goal should make you want to start right away not being dependant on external factors.  
+A [good goal][goals] is one that is specific, actionable, and achievable. The goal should make you want to start right away not being dependant on external factors.  
 
 **Don't:** Reach 100 downloads on the app store.  
 **Do:** Publish anything on the app store.  
@@ -81,3 +81,4 @@ I hope this post helped you to start working on your own project. What are you w
 [what-is-ux-design]: https://www.youtube.com/watch?v=SRec90j6lTY
 [user-interviews]: https://www.shopify.com/partners/blog/user-interview
 [atomic-habits]: https://jamesclear.com/atomic-habits
+[goals]: https://sive.rs/goals
