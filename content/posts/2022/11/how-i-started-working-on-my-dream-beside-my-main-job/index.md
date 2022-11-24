@@ -56,7 +56,7 @@ There is a psychological [trick used in habit building][atomic-habits].
 
 At some days you might not have the time or lack motivation and only do the one minute, but on other days you keep going and the hour goes by before you notice it. Consistency makes progress, not perfection.
 
-I personally wake up at 5am every day, make some coffee, do some workout, meditate and then commit at least 30 minutes to my project. At weekends when my wife and son sleep in I can easily do two to three hours of concentrated work. On weekdays I might do some additional work in the evening. All in all I find it amazing to see the progress by simply putting in a little bit of work every day.
+I personally try to commit at least 30 minutes to my project every day after waking up. All in all I find it amazing to see the progress by simply putting in a little bit of work every day.
 
 ## Setting The Right Goal
 
