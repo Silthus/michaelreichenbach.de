@@ -1,0 +1,9 @@
+on:
+  schedule:
+    - cron: "0 5 */1 * *"
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl https://api.netlify.com/build_hooks/638b8e117df82d48a8abfecc
