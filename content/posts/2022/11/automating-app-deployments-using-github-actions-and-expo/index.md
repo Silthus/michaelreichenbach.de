@@ -1,5 +1,5 @@
 ---
-Title: Automating App Builds & Deployments Using Github Actions and Expo Services
+Title: Automating React Native Builds & Deployments Using Github Actions and Expo Services
 draft: true
 date: 2022-11-10
 tags:
@@ -12,3 +12,5 @@ categories:
 - App Development
 - CI/CD
 ---
+
+{{< figure src="github-actions.png" caption="Github Actions Workflow" >}}
