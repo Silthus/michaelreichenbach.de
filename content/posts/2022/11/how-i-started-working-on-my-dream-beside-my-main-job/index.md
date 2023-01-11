@@ -1,6 +1,7 @@
 ---
 title: How I Started Working on My Dream Beside My Main Job
 date: 2022-11-21
+draft: true
 cover:
   image: cover.jpg
 categories:
