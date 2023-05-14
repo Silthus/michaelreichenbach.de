@@ -1,7 +1,7 @@
 ---
 title: "Mastering Customer Conversations: The Ultimate Guide to 'The Mom Test'"
 description: "Boost your startup's success with a comprehensive summary of 'The Mom Test' by Rob Fitzpatrick. Learn essential skills for customer conversations and unlock valuable feedback to revolutionize your business growth."
-date: 2023-05-14
+date: 2023-05-13
 cover:
   image: cover.png
 categories:
